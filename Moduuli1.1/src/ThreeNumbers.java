@@ -19,7 +19,7 @@ public class ThreeNumbers {
         //System.out.println("The average of the numbers is " + ((first + second + third)/3)); // This gives an integer
         System.out.println("The average of the numbers is " + ((double)(first + second + third)/3));
         /* Without the double-typecast the calculated average would be displayed as an integer since all the
-        user input numbers are integers. Typecasting the calculations for the average as double gives
+        user input numbers are integers. Type casting the calculations for the average as double gives
         us a more exact value.
          */
     }
