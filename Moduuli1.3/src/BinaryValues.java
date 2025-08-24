@@ -7,7 +7,7 @@ public class BinaryValues {
         String bin = userInput.nextLine();
         int dec = 0;
         int p = 0;
-        for (int i = bin.length() - 1; i >= 0; i--) {
+        for (int i = bin.length() - 1; i >= 0; i--) { // Read the binary number from RIGHT to LEFT
             char bit = bin.charAt(i);
             if (bit == '1') {
                 dec += (int)Math.pow(2, p);
