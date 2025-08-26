@@ -2,20 +2,26 @@ import java.util.Scanner;
 
 public class RemoveDuplicates {
     public static void main(String[] args) {
+
         Scanner userInput = new Scanner(System.in);
+
         System.out.println("Give the size of an array: ");
         int size = userInput.nextInt();
+
         int[] nums = new int[size];
+
         int ints = 1;
         for (int i = 0; i < size; i++) {
             System.out.printf("Give %d. integer: ", ints);
             nums[i] = userInput.nextInt();
             ints++;
         }
+
         System.out.println("The given array is: ");
         for (int ind = 0; ind < size; ind++) {
             System.out.print(" " + nums[ind] + " ");
         }
+
         int[] noDups = new int[nums.length]; // Collect the numbers to this array.
 
         int collected = 0;
@@ -38,6 +44,7 @@ public class RemoveDuplicates {
                 }
             }
         }
+
         System.out.println("\n\nHere is the array without duplicates: ");
         for (int show = 0; show < collected; show++) {
             System.out.print(" " + noDups[show] + " ");

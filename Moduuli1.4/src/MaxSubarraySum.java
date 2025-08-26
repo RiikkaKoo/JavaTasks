@@ -3,19 +3,24 @@ import java.util.Scanner;
 public class MaxSubarraySum {
     public static void main(String[] args) {
         Scanner userInput = new Scanner(System.in);
+
         System.out.println("Give the size of an array: ");
         int size = userInput.nextInt();
+
         int[] numbers = new int[size];
+
         int ints = 1;
         for (int i = 0; i < size; i++) {
             System.out.printf("Give %d. integer: ", ints);
             numbers[i] = userInput.nextInt();
             ints++;
         }
+
         System.out.println("The given array is: ");
         for (int ind = 0; ind < size; ind++) {
             System.out.print(" " + numbers[ind] + " ");
         }
+
         int startInd = 0;
         int endInd = 0;
         int biggestSum = numbers[0];
@@ -34,6 +39,7 @@ public class MaxSubarraySum {
                 }
             }
         }
+
         System.out.println("\n\nThe biggest subarray sum is: " + biggestSum);
         System.out.println("It is from this subarray: ");
         for (int index = startInd; index <= endInd; index++) {
