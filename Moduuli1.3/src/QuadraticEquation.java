@@ -13,7 +13,7 @@ public class QuadraticEquation {
 
         double discriminant = Math.pow(b, 2) - 4*a*c;
         //System.out.println(discriminant);
-        if (discriminant <= 0) {
+        if (discriminant < 0) {
             System.out.println("This equation has no real roots.");
         }
         else {
