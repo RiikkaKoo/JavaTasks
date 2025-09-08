@@ -5,9 +5,8 @@ or exit the program. This file shows the code for the program and explains how i
 
 Here is the code for the calculator program:
 
-`
 
-´´´java
+```java
 import java.util.Scanner;
 
 public class Calculator {
@@ -75,7 +74,7 @@ private int currentValue;
         scanner.close();
     }
 }
-´´´
+```
 ### How the Code Works:
 
 The calculator program is a simple Java application that allows the user to add positive integer values together. 
