@@ -3,13 +3,7 @@ import java.util.Scanner;
 public class Calculator {
     private int currentValue;
 
-    /**
-     * Adds a positive integer to the current value.
-     * If the input value is negative, throws an IllegalArgumentException.
-     *
-     * @param value the positive integer to add
-     * @throws IllegalArgumentException if value is negative
-     */
+    // Method that adds two positive integers to a current value
     public void add(int value) {
         if (value < 0) {
             throw new IllegalArgumentException("Only positive integers are allowed.");
@@ -17,19 +11,12 @@ public class Calculator {
         currentValue += value;
     }
 
-    /**
-     * Resets the current value to zero.
-     * This method can be used to clear the calculator's total.
-     */
+    // Method that resets the current value to zero
     public void reset() {
         currentValue = 0;
     }
 
-    /**
-     * Returns the current value stored in the calculator.
-     *
-     * @return the current total value
-     */
+    // Method that returns the current value
     public int getCurrentValue() {
         return currentValue;
     }
