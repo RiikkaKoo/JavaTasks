@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/Moduuli3.1/Moduuli3.1.iml" filepath="$PROJECT_DIR$/Moduuli3.1/Moduuli3.1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Moduuli3.2/Moduuli3.2.iml" filepath="$PROJECT_DIR$/Moduuli3.2/Moduuli3.2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Moduuli3.3/Moduuli3.3.iml" filepath="$PROJECT_DIR$/Moduuli3.3/Moduuli3.3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Moduuli3.4/Moduuli3.4.iml" filepath="$PROJECT_DIR$/Moduuli3.4/Moduuli3.4.iml" />
       <module fileurl="file://$PROJECT_DIR$/Moduuli4.0/Moduuli4.0.iml" filepath="$PROJECT_DIR$/Moduuli4.0/Moduuli4.0.iml" />
       <module fileurl="file://$PROJECT_DIR$/Moduuli2.1/Task2.1.1/Task2.1.1.iml" filepath="$PROJECT_DIR$/Moduuli2.1/Task2.1.1/Task2.1.1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Moduuli2.1/Task2.1.2/Task2.1.2.iml" filepath="$PROJECT_DIR$/Moduuli2.1/Task2.1.2/Task2.1.2.iml" />
@@ -24,6 +25,9 @@
       <module fileurl="file://$PROJECT_DIR$/Moduuli3.2/Task3.2.1/Task3.2.1.iml" filepath="$PROJECT_DIR$/Moduuli3.2/Task3.2.1/Task3.2.1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Moduuli3.2/Task3.2.2-3.2.4/Task3.2.2-3.2.4.iml" filepath="$PROJECT_DIR$/Moduuli3.2/Task3.2.2-3.2.4/Task3.2.2-3.2.4.iml" />
       <module fileurl="file://$PROJECT_DIR$/Moduuli3.3/Task3.3.1/Task3.3.1.iml" filepath="$PROJECT_DIR$/Moduuli3.3/Task3.3.1/Task3.3.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Moduuli3.4/Task3.4.1/Task3.4.1.iml" filepath="$PROJECT_DIR$/Moduuli3.4/Task3.4.1/Task3.4.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Moduuli3.4/Task3.4.2/Task3.4.2.iml" filepath="$PROJECT_DIR$/Moduuli3.4/Task3.4.2/Task3.4.2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Moduuli3.4/Task3.4.3/Task3.4.3.iml" filepath="$PROJECT_DIR$/Moduuli3.4/Task3.4.3/Task3.4.3.iml" />
       <module fileurl="file://$PROJECT_DIR$/Tasks.iml" filepath="$PROJECT_DIR$/Tasks.iml" />
       <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
     </modules>
