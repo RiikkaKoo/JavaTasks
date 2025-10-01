@@ -8,8 +8,8 @@ public class ArrayListInstance {
         arrayList.add(element);
     }
 
-    public synchronized boolean removeAnElement(String element) {
-        return arrayList.remove(element);
+    public synchronized void removeAnElement(String element) {
+        arrayList.remove(element);
     }
 
     public synchronized int getArrayListSize() {
